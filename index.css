@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/* header */
+
+#header{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 32x;
+    background-color: rgb(231, 222, 222);
+    color: black;
+}
+#header>div:nth-child(2){
+    margin-right: 20px;
+    height: 100%;
+    display:    flex;
+    align-items: center;
+    padding: 1px;
+    width: 6.1%; 
+    justify-content: center;
+}
+.header_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+}
+.header_1>img {
+    height: 29px;
+}
+.header_1:hover{
+    cursor: pointer;
+    background-color: rgb(205, 194, 194);
+}
+#header>div:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(205, 194, 194);
+}
+
+
+/* navbar */
+#navbar_1>.a{
+    border-bottom: 2px solid black;
+}
+#navbar{
+   display: flex;
+   justify-content: space-around;
+   height: auto;
+}
+.nav_1{
+    padding: 5px;
+    width: 35%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.nav_1>div:nth-child(1)>h1{
+    font-size: 60px;
+}
+.nav_1>div:nth-child(2)>img{
+    width: 100%;
+    height: 100%;
+}
+.nav_1>div:nth-child(2){
+    width: 48%;
+    height: 99%;
+}
+.nav_1>div:nth-child(1){
+    width: 100%;
+}
+.nav_1>div:nth-child(1):hover{
+  cursor: pointer;
+}
+.nav_1>div:nth-child(2)>img:hover{
+    cursor: pointer;
+}
+
+.nav_2{
+    width: 30%;
+    display: flex;
+    align-items: center;  
+}
+.nav_2>input{
+    width: 90%;
+    height: 35px;
+    padding: 2px;
+}
+.nav_2>img{
+    text-align: center;
+    height: 40px;
+}
+
+.nav_3{
+    width: 30%;
+    display: flex;align-items: center;
+    font-size: 25px;
+}
+.nav_3>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.nav_3>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_3>div>div>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.nav_3>div>div:hover{
+    background-color: rgb(217, 204, 204);
+    cursor: pointer;
+    border: 1px solid rgb(217, 204, 204);
+}
+
+.items{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #938b8b;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.items>div:hover{
+    cursor: pointer;
+    background-color: #485050;
+    color:white;
+}
+.items>div{
+    margin-left: 12px;
+}
+
+#Section_1{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #938b8b;
+}
+#Section_1>div{
+    display: flex;
+    height: 100%;
+    width: 90%;
+}
+#Section_1>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    width: 100%;
+    padding:1px;
+    margin:1px;   
+}
+
+#Section_1>div>div>img{
+    width: 50px;
+    margin-right: 1px;
+}
+
+#text{
+    font-size: 23px;
+    background-color: #485050;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+#text:hover{
+    background-color: white;
+}
+
+#Slider{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Slider>img{
+    width: 92%;
+}
+
+#Slider>div>button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border: none;
+}
