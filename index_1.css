@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main_1{
+    position: sticky;
+    top: 0px;
+    z-index: 10px;
+    background-color: white;
+}
+#navbar{
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#navbar>h1{
+    font-size: 65px;
+}
+#navbar>p{
+    font-size: 16px;
+    font-weight: 500;
+}
+#href{
+    text-decoration: none;
+    color: black;
+}
+
+#main{
+    width: 60%;
+    height: auto;
+    margin:auto;
+    border: 1px solid red;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+h3{
+    margin-top: 40px;
+    font-size: 22px;
+    opacity: .8;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+}
+.sign>button>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.sign>button{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.sign>button>a{
+    text-decoration: none;
+    color: gray;
+}
+.sign>button:hover{
+    cursor: pointer;
+    background-color: rgb(244, 237, 237);
+    border: none;
+}
+
+.border{
+    border-bottom: 1px solid grey;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+form{
+    display: grid;
+    width: 50%;
+}
+
+form>input{
+    margin-top: 5px;
+    height: 50px;
+}
+form>label{
+    margin-top: 40px;
+}
