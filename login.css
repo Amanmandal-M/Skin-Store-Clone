@@ -32,7 +32,7 @@
     width: 60%;
     height: auto;
     margin:auto;
-    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 30px;
     margin-top: 40px;
 }
@@ -40,7 +40,6 @@
 h3{
     margin-top: 40px;
     font-size: 22px;
-    opacity: .8;
 }
 .sign{
     display: flex;
@@ -86,7 +85,48 @@ form{
 form>input{
     margin-top: 5px;
     height: 50px;
+    width: 200%;
+    font-weight: lighter;
+    font-size: 20px;
+  
 }
 form>label{
     margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+input[type="submit"]{
+    width: 200%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: rgb(46, 51, 55);
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(101, 169, 224);
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hulk{
+    width: 200%;
+    margin: 20px;
+    font-size: 18px;
+    margin-left: 1px;
+    font-weight: 300;
+}
+.hulk>a{
+    color: black;
+    font-weight: 900;
 }

@@ -331,6 +331,10 @@
     cursor: pointer;
     background-color: #cddcdb;
 }
+#gridCards >div:nth-child(7)>button>a{
+  text-decoration: none;
+  color: black;
+}
 
 /*  */
 
