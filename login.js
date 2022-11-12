@@ -1,3 +1,5 @@
+// login page
+
 let checker = JSON.parse(localStorage.getItem("datas"));
 console.log(checker);
 
