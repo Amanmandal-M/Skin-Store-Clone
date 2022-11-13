@@ -111,7 +111,6 @@
   /*  */
   
   .items {
-    display: block;
     display: flex;
     justify-content: space-between;
     width: 85%;
@@ -216,4 +215,36 @@
     background-color: rgb(248, 203, 228);
     border: none;
 
+  }
+
+  @media screen and (min-width:200px) and (max-width:900px){
+
+    #container{
+      display : grid ;
+      grid-template-columns:repeat(2,1fr);
+      width: 100%;
+      height: auto;
+    }
+
+    #container>div{
+      width: 80%;
+      height: auto;
+    }
+
+    #container>div>img{
+      width: 100%;
+      height: auto;
+    }
+
+    .items{
+        width: 70%;
+        height: auto;
+        display: grid;
+        font-size: 40px;
+    }
+    #navbar_1{
+      position: relative;
+    }
+
+    
   }

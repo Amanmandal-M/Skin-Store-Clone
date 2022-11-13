@@ -23,8 +23,7 @@ function display(checker){
        if(checker[i].con_email == mail && checker[i].con_pass == pass){
             return alert("Login success");
        }else{
-        return alert("Login failed");
-
+            return alert("Login failed");
        }
      }
 }

@@ -51,6 +51,7 @@ function displayData(out) {
   }
 
 
+
 //Sorting
 
 function Sorting() {
@@ -70,7 +71,6 @@ function Sorting() {
           }
   displayData(out);
 }
-
 
 
 document.querySelector("#selected").addEventListener("change", myChange);

@@ -14,7 +14,7 @@ function mYsubmit(e) {
     if(con_email=="" || con_pass==""){
         alert("Fill all Details");
     }else{
-        alert("Signed Up Successful");
+        alert("Sign Up Successful");
     }
 
     let obj = {
