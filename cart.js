@@ -17,7 +17,7 @@ displayData(cart_2);
         var Price = document.createElement("p");
         Price.innerText = "Rs. "+ elem.price;     
 
-        div.append(image, Title, Price,but);
+        div.append(image, Title, Price);
     
         document.querySelector("#container").append(div);
       });
