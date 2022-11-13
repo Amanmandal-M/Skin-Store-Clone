@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
   }
-  .nav_1 > div> img {
+  .nav_1 > div>a> img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -86,6 +86,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
+    
   }
   .nav_3 > div > div {
     display: flex;
@@ -138,27 +139,82 @@
     margin: auto;
     margin-top: 50px;
     width: 95%;
-    height: 5000px;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    border: 1px solid green;
+    border: 1px solid red;
   }
 
   #container>div{
     margin: auto;
     margin-top: 20px;
     width:95%;
-    height:90%;
-    border: 1px solid red;
+    height:95%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     text-align: center;
+    margin-bottom: 40px;
   }
   #container>div>img{
-    width:100%;
+    width:92%;
     height:300px;
     margin-bottom: 20px;
   }
   #container>div>button{
     width:70%;
     height: 40px;
+  }
+
+  #container>div>h3{
+    margin-top: 40px;
+  }
+  #container>div>button{
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  #container>div>p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: brown;
+  }
+  #container>div>button:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #nam{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  label{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+    color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .lab{
+    margin-left: 110px;
+    color: green;
+  }
+
+  #selected , #val{
+    font-size: 20px;
+    display: block;
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  #selected:hover,#val:hover{
+    cursor: pointer;
+    background-color: rgb(248, 203, 228);
+    border: none;
+
   }

@@ -130,3 +130,28 @@ input[type="submit"]:hover{
     color: black;
     font-weight: 900;
 }
+
+.going{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: block;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    color: lightcoral;
+    margin: auto;
+}
+
+.going:hover{
+    cursor: pointer;
+    color: black;
+    background-color: bisque;
+    border: none;
+}
+
+
+ 
