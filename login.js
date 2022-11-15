@@ -21,9 +21,11 @@ function mYsubmit(e) {
 function display(checker){
     for(let  i=0; i<checker.length; i++){
        if(checker[i].con_email == mail && checker[i].con_pass == pass){
-            return alert("Login success");
+               alert("Login successful");
+                alert(window.open("index.html"));
+                window.close("login.html");
        }else{
-            return alert("Login failed");
+             alert("Login failed");
        }
      }
 }

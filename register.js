@@ -14,7 +14,18 @@ function mYsubmit(e) {
     if(con_email=="" || con_pass==""){
         alert("Fill all Details");
     }else{
-        alert("Sign Up Successful");
+        alert ("Sign Up Successfully");
+       
+        window.open("login.html")+ window.close("register.html");
+
+        document.querySelector("#name").value ="";
+        document.querySelector("#email").value ="";
+        document.querySelector("#email_1").value ="";
+        document.querySelector("#password").value ="";
+        document.querySelector("#password_1").value ="";
+        document.querySelector("#cell_phone").value ="";
+
+
     }
 
     let obj = {

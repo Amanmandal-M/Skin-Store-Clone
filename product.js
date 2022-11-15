@@ -39,6 +39,7 @@ function displayData(out) {
     btn_2.innerText = "Quick Buy";
 
     btn_2.addEventListener("click",function(){
+        alert("Added to Cart successfully")
         cart_1.push(elem);
         localStorage.setItem("cart_items",JSON.stringify(cart_1));
     });
