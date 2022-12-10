@@ -17,7 +17,7 @@ getData();
 
 
 function displayData(out) {
-    document.querySelector("#container").innerHTML = "";
+ document.querySelector("#container").innerHTML = "";
     
   out.forEach(elem => {
 

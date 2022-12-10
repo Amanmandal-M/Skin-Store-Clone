@@ -1,11 +1,11 @@
 let cart_2 = JSON.parse(localStorage.getItem(("cart_items")));
 displayData(cart_2);
 
+console.log(cart_2);
 
     function displayData(out) {
 
-        document.querySelector("#container").innerHTML = "";
-        let bag="";
+      document.querySelector("#container").innerHTML = "";
         
       out.forEach(elem => {
         var div = document.createElement("div");
