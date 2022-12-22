@@ -43,6 +43,7 @@
 }
 
 /* navbar */
+
 #navbar_1 > .a {
   border-bottom: 2px solid black;
 }
@@ -51,6 +52,16 @@
   justify-content: space-around;
   height: auto;
 }
+#navbar_1{
+  position: sticky;
+  top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  z-index: 10;
+  background-color: white;
+}
+/*  */
+
 .nav_1 {
   padding: 5px;
   width: 35%;
@@ -80,6 +91,8 @@
   cursor: pointer;
 }
 
+/*  */
+
 .nav_2 {
   width: 30%;
   display: flex;
@@ -97,6 +110,8 @@
 .nav_2 > img:hover {
   cursor: pointer;
 }
+
+/*  */
 
 .nav_3 {
   width: 30%;
@@ -125,6 +140,12 @@
   cursor: pointer;
   border: 1px solid rgb(217, 204, 204);
 }
+.nav_3>div>div>a{
+  text-decoration: none;
+  color: black;
+}
+
+/*  */
 
 .items {
   display: block;
@@ -151,6 +172,8 @@
   margin-left: 12px;
 }
 
+/*  */
+
 #Section_1 {
   display: flex;
   justify-content: center;
@@ -173,11 +196,12 @@
   padding: 1px;
   margin: 1px;
 }
-
 #Section_1 > div > div > img {
   width: 50px;
   margin-right: 1px;
 }
+
+/*  */
 
 #text {
   font-size: 23px;
@@ -195,6 +219,8 @@
   color: black;
 }
 
+/*  */
+
 #Slider {
   height: 100%;
   width: 100%;
@@ -203,11 +229,9 @@
   align-items: center;
   justify-content: space-between;
 }
-
 #Slider > img {
   width: 92%;
 }
-
 #Slider > div > button {
   display: block;
   width: 50px;
@@ -215,6 +239,8 @@
   font-size: 40px;
   border: none;
 }
+
+/*  */
 
 .circles {
   display: flex;
@@ -226,13 +252,14 @@
 .circles > span {
   margin: 5px;
 }
-
 .circles ~ h1 {
   text-align: center;
   margin-top: 15px;
   font-weight: bolder;
   font-size: 35px;
 }
+
+/*  */
 
 #smallCards {
   display: flex;
@@ -255,11 +282,12 @@
   margin-top: 10px;
   opacity: .9;
 }
-
 #smallCards > div > button>img:hover{
     cursor: pointer;
     opacity: 7;
 }
+
+/*  */
 
 #gridCards {
   width: 100%;
@@ -271,7 +299,6 @@
   gap: 10px;
   font-family: "Lato-Light", Helvetica, Arial, sans-serif;
 }
-
 #gridCards > div {
   text-align: center;
   width: 90%;
@@ -279,7 +306,6 @@
   margin: auto;
   margin-top: 5px;
 }
-
 #gridCards > div > button {
   padding: 12px;
   margin: auto;
@@ -305,6 +331,21 @@
     cursor: pointer;
     background-color: #cddcdb;
 }
+#gridCards >div:nth-child(1)>button>a,
+#gridCards >div:nth-child(2)>button>a,
+#gridCards >div:nth-child(3)>button>a,
+#gridCards >div:nth-child(4)>button>a,
+#gridCards >div:nth-child(5)>button>a,
+#gridCards >div:nth-child(6)>button>a,
+#gridCards >div:nth-child(7)>button>a,
+#gridCards >div:nth-child(8)>button>a,
+#gridCards >div:nth-child(9)>button>a
+{
+  text-decoration: none;
+  color: black;
+}
+
+/*  */
 
 #medics {
   display: flex;
@@ -362,6 +403,8 @@
     color: #333;
 }
 
+/*  */
+
 #logos {
   display: flex;
   justify-content: space-evenly;
@@ -385,6 +428,8 @@
     cursor: pointer;
     opacity: .8;
 }
+
+/*  */
 
 #blog {
   display: flex;
@@ -420,11 +465,15 @@
     margin-bottom: 10px;
   }
 
+  /*  */
+
 .border{
     margin-top: 30px;
     border-bottom: 1px solid grey;
     margin-bottom: 20px;
 }
+
+/*  */
 
 #footer-1{
     width: 100%;
@@ -437,7 +486,6 @@
     height: 100%;
     padding-left: 10px;
 }
-
 #footer-1>div>.image{
     width: 40%;
     height: 100%;
@@ -465,6 +513,9 @@
     background-color: #28bdb7;
     cursor: pointer;
 }
+
+/*  */
+
 #border_2{
     display: flex;
     width: 100%;
@@ -485,6 +536,8 @@
     height: 100%;
     margin-top: 43px;
 }
+
+/*  */
 
 #footer_2{
     margin-top: 50px;
@@ -540,9 +593,81 @@
     margin-left: 7px;
     margin-bottom: 20px;
 }
-
 #footer_2>div:nth-child(1)>button>img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+/*  */
+
+.border_5{
+  border-bottom: 1px solid grey;
+  margin-bottom: 40px;
+}
+
+/*  */
+
+#footer_10{
+  display: flex;
+  width: 97%;
+  height: auto;
+  margin: auto;
+}
+#footer_10>div{
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+#footer_10>div:nth-child(1)>img{
+  margin-top: 20px;
+   width: 50%;
+}
+#footer_10>div:nth-child(1)>img:hover{
+  cursor: pointer;
+}
+#footer_10>div:nth-child(1)>h1{
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: .8;
+}
+#footer_10>div:nth-child(1)>p{
+  color: grey;
+}
+#footer_10>div:nth-child(2)>img{
+  margin-top: 20px;
+   width: 60px;
+   height: 40px;
+   border-radius: 5px;
+   border:1px solid rgb(198, 186, 186) ;
+}
+#footer_10>div:nth-child(2)>p{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+/* login_1 */
+#main{
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main>button{
+  width: 40%;
+  height: 50px;
+  margin-top: 24%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+}
+#main>button:hover{
+  background-color: #28bdb7;
+  cursor: pointer;
+}
+#main>button>a{
+  text-decoration: none;
+  color: black;
 }

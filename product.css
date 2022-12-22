@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* navbar */
+  
+  #navbar_1 > .a {
+    border-bottom: 2px solid black;
+  }
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: rgb(216, 232, 232);
+  }
+  #navbar_1{
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    z-index: 10;
+    background-color: white;
+  }
+  /*  */
+  
+  .nav_1 {
+    padding: 5px;
+    width: 35%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_1 > div>a> img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .nav_1 > div:nth-child(1) {
+    width: 100%;
+  }
+  .nav_1 > div:nth-child(1):hover {
+    cursor: pointer;
+  }
+  .nav_1 > div:nth-child(2) > img:hover {
+    cursor: pointer;
+  }
+  
+  /*  */
+  
+  .nav_2 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  .nav_2 > input {
+    width: 150%;
+    height: 35px;
+    padding: 2px;
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  .nav_2>button:hover{
+    cursor: pointer;
+    background-color: rgb(105, 92, 204);
+    border: none;
+  }
+  .nav_2 > img {
+    text-align: center;
+    height: 40px;
+  }
+  .nav_2 > img:hover {
+    cursor: pointer;
+  }
+  
+  /*  */
+  
+  .nav_3 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+  .nav_3 > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    
+  }
+  .nav_3 > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_3 > div > div > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  .nav_3 > div > div:hover {
+    background-color: rgb(217, 204, 204);
+    cursor: pointer;
+    border: 1px solid rgb(217, 204, 204);
+  }
+  .nav_3>div>div>a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*  */
+  
+  .items {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    color: #4b4646;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .items > div:hover {
+    cursor: pointer;
+    background-color: #0209089d;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }
+  .items > div {
+    margin-left: 12px;
+  }
+  
+  #container {
+    margin: auto;
+    margin-top: 50px;
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+  }
+
+  #container>div{
+    margin: auto;
+    margin-top: 20px;
+    width:95%;
+    height:95%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #container>div>img{
+    width:92%;
+    height:300px;
+    margin-bottom: 20px;
+  }
+  #container>div>button{
+    width:70%;
+    height: 40px;
+  }
+
+  #container>div>h3{
+    margin-top: 40px;
+  }
+  #container>div>button{
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  #container>div>p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: brown;
+  }
+  #container>div>button:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #nam{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  label{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+    color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .lab{
+    margin-left: 110px;
+    color: green;
+  }
+
+  #selected , #val{
+    font-size: 20px;
+    display: block;
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  #selected:hover,#val:hover{
+    cursor: pointer;
+    background-color: rgb(248, 203, 228);
+    border: none;
+
+  }
+
+  @media screen and (min-width:200px) and (max-width:900px){
+
+    #container{
+      display : grid ;
+      grid-template-columns:repeat(2,1fr);
+      width: 100%;
+      height: auto;
+    }
+
+    #container>div{
+      width: 80%;
+      height: auto;
+    }
+
+    #container>div>img{
+      width: 100%;
+      height: auto;
+    }
+
+    .items{
+        width: 70%;
+        height: auto;
+        display: grid;
+        font-size: 40px;
+    }
+    #navbar_1{
+      position: relative;
+    }
+
+    
+  }
